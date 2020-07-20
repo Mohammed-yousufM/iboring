@@ -19,10 +19,12 @@ class LocalVideo extends React.Component {
   render() {
     return (
       <article className="blocal">
-        <h2>Watch To Local Funny Videos: Available-{localVideos.length}</h2>
+        <h2>
+          Watch To Local Funny Videos: <i>Available-{localVideos.length}</i>
+        </h2>
         <ReactPlayer className="bvideo" url={this.state.vid} controls playing />
         <button className="button" onClick={this.onClickSubmit}>
-          play random
+          Next Video
         </button>
       </article>
     );

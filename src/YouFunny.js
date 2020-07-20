@@ -19,10 +19,12 @@ class YouFunny extends React.Component {
   render() {
     return (
       <article className="bfunny">
-        <h2>Funny YouTube Videos: Available-{youFunnys.length}</h2>
+        <h2>
+          Funny YouTube Videos: <i>Available-{youFunnys.length}</i>
+        </h2>
         <ReactPlayer className="bvideo" url={this.state.vid} controls />
         <button className="button" onClick={this.onClickSubmit}>
-          play random
+          Next Funny
         </button>
       </article>
     );
