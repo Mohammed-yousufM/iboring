@@ -20,7 +20,7 @@ class YouFunny extends React.Component {
     return (
       <article className="bfunny">
         <h2>Funny YouTube Videos: Available-{youFunnys.length}</h2>
-        <ReactPlayer className="bvideo" url={this.state.vid} controls playing />
+        <ReactPlayer className="bvideo" url={this.state.vid} controls />
         <button className="button" onClick={this.onClickSubmit}>
           play random
         </button>

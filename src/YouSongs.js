@@ -20,7 +20,7 @@ class LocalVideo extends React.Component {
     return (
       <article className="bsong">
         <h2>Songs From YouTube: Available-{youSongs.length}</h2>
-        <ReactPlayer className="bvideo" url={this.state.vid} controls playing />
+        <ReactPlayer className="bvideo" url={this.state.vid} controls />
         <button className="button" onClick={this.onClickSubmit}>
           play random
         </button>
