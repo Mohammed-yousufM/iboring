@@ -12,7 +12,7 @@ class App extends React.Component {
       <div className="container">
         <section className="header">
           <header className="hcontent">
-            <h1>TO BORING AND BEYOND . .</h1>
+            <h1>TO BORING AND BEYOND..</h1>
             <nav className="navbar">
               i intentionally made it smaller so you won't read &#9872;
             </nav>
