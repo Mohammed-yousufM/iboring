@@ -3,41 +3,45 @@ import React from "react";
 import "./App.css";
 import LocalVideo from "./LocalVideo";
 import Quote from "./Quote";
-import YouSongs from "./YouSongs";
-import YouFunny from "./YouFunny";
+import CovidTrack from "./CovidTrack";
 
 class App extends React.Component {
   render() {
     return (
-      <div className="container">
+      <React.Fragment>
         <section className="header">
           <header className="hcontent">
-            <h1>TO BORING AND BEYOND..</h1>
-            <nav className="navbar">
-              i intentionally made it smaller so you won't read &#9872;
-            </nav>
+            <h1 className="m-0 pt-2">Restore yourself when you're Alone..</h1>
+            <span className="caption pt-0 mt-0">
+              From Boring to Beyond <i className="coffee icon"></i>
+            </span>
           </header>
         </section>
 
-        <section className="bbody">
+        <section className="d-flex flex-column justify-content-start align-items-center">
           <Quote />
           <LocalVideo />
-          <YouSongs />
-          <YouFunny />
+          <CovidTrack />
         </section>
 
-        <section className="footer">
+        <section className="footer mb-2">
           <footer className="fcontent">
             <p>
-              Thanks for coming-This website is in developement-Explore-Enjoy:-)
+              -Thanks for coming-
+              <br />
+              -This website is in developement-
+              <br />
+              -Explore-Enjoy-
               <br />
               -Ideas and suggestions are most welcome- <br />
-              -write to me at &nbsp;
-              <a href="mailto: contact@iboring.xyz">contact@iboring.xyz-</a>
+              <a href="mailto: contact@iboring.xyz">
+                write to me at &nbsp;
+                <i className="envelope icon"></i>contact@iboring.xyz
+              </a>
             </p>
           </footer>
         </section>
-      </div>
+      </React.Fragment>
     );
   }
 }

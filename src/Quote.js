@@ -9,7 +9,7 @@ class Quote extends React.Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(this.fqlist, 12000);
+    this.interval = setInterval(this.fqlist, 10000);
   }
 
   componentWillUnmount() {
@@ -23,7 +23,7 @@ class Quote extends React.Component {
 
   render() {
     return (
-      <article className="bquote">
+      <article className="bquote align-self-center my-2 py-3">
         <p>{this.state.aquote}</p>
       </article>
     );

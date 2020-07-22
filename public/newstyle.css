@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+body {
+  background-color: steelblue;
+  font-size: 16px !important;
+}
+
+.mt-4 {
+  color: black;
+  /* border-top: 2px dashed goldenrod; */
+  background-color: yellowgreen;
+}
+
+h1 {
+  font-family: "Comic Sans MS", "Courier New", Courier, monospace, cursive;
+  font-size: 1.9rem !important;
+  color: darkorange;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center !important;
+}
+.mybcontainer {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: inherit;
+  width: inherit;
+}
+
+.header .hcontent,
+.footer .fcontent,
+.bquote {
+  margin: auto;
+  text-align: center;
+  overflow: auto;
+}
+
+.hcontent {
+  width: 100%;
+  height: inherit;
+}
+
+.bvideo {
+  width: 320px !important;
+  height: 260px !important;
+}
+
+.bquote {
+  width: 100%;
+  color: black;
+  background-color: yellowgreen;
+  font-variant: small-caps;
+  font-style: italic;
+  font-weight: bold;
+  height: 80px;
+  border-radius: 4px;
+}
+
+.videocontainer {
+  width: 100%;
+  /* background-color: cornflowerblue; */
+}
+
+.header .hcontent {
+  /* background-color: mediumaquamarine; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.9rem;
+  color: tomato;
+}
+
+.caption {
+  font-size: 0.8rem;
+  color: white;
+  font-style: italic;
+}
+
+.footer {
+  color: whitesmoke;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  /* background-color: midnightblue; */
+  color: midnightblue;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.table-responsive i,
+li i,
+.legend {
+  font-size: 0.8rem;
+}

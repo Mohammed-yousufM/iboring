@@ -4,7 +4,7 @@
 export const quotesList = [
   "you don't have to be great to start- but you have to start to be great",
   "spend life with who makes you happy- not who you have to impress",
-  "your only obligation in anynlifetime is to be true to yourself",
+  "your only obligation in any lifetime is to be true to yourself",
   "you don't have to be someone else to impress people. Let them be impressed by the real you",
   "your time is limited, so don't waste it living someone else's life",
   "Time is precious, waste it wisely",
@@ -27,13 +27,29 @@ export const quotesList = [
 ];
 
 //All local video names go into this list
-export const localVideos = [
+export const youFunnys = [
   "vd0.mp4",
   "vd1.mp4",
   "vd2.mp4",
   "vd3.mp4",
   "vd4.mp4",
   "vd5.mp4",
+  "https://youtu.be/OVeMmH2w7OE",
+  "https://youtu.be/femR2wbTHaQ",
+  "https://youtu.be/3tCBIDzF34M",
+  "https://youtu.be/fTvelC4ZZds",
+  "https://youtu.be/trn8f8-wTag",
+  "https://youtu.be/fe-xbF1ztXo",
+  "https://youtu.be/A8A1k1i0YnM",
+  "https://youtu.be/mhleha-SqCA",
+  "https://youtu.be/8KU45gCsGX4",
+  "https://youtu.be/L3qaRVXRz0g",
+  "https://youtu.be/inkjVuJlXQU",
+  "https://youtu.be/KiVKGhwKd1k",
+  "https://youtu.be/-GYoAtwcEQw",
+  "https://youtu.be/C2Xmkg3HRp0",
+  "https://youtu.be/BxAg-JNHy3g",
+  "https://youtu.be/bcPjsyzqkp4",
 ];
 
 //All links to youtube video songs
@@ -61,21 +77,3 @@ export const youSongs = [
 ];
 
 //All links to youtube funny videos
-export const youFunnys = [
-  "https://youtu.be/OVeMmH2w7OE",
-  "https://youtu.be/femR2wbTHaQ",
-  "https://youtu.be/3tCBIDzF34M",
-  "https://youtu.be/fTvelC4ZZds",
-  "https://youtu.be/trn8f8-wTag",
-  "https://youtu.be/fe-xbF1ztXo",
-  "https://youtu.be/A8A1k1i0YnM",
-  "https://youtu.be/mhleha-SqCA",
-  "https://youtu.be/8KU45gCsGX4",
-  "https://youtu.be/L3qaRVXRz0g",
-  "https://youtu.be/inkjVuJlXQU",
-  "https://youtu.be/KiVKGhwKd1k",
-  "https://youtu.be/-GYoAtwcEQw",
-  "https://youtu.be/C2Xmkg3HRp0",
-  "https://youtu.be/BxAg-JNHy3g",
-  "https://youtu.be/bcPjsyzqkp4",
-];
