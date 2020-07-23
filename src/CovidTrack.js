@@ -25,11 +25,12 @@ class CovidTrack extends React.Component {
     let promise = await axios.get("https://api.covid19india.org/v4/data.json");
     // this.stateAP = promise.data.AP;
     // console.log(this.stateAP);
+    console.log(promise.data.AP);
     this.setState({
       newData: Object.entries(promise.data.AP.districts),
-      npcases: promise.data.AP.delta.confirmed,
-      nccases: promise.data.AP.delta.recovered,
-      ndcases: promise.data.AP.delta.deceased,
+      npcases: promise.data.AP.delta?.confirmed ?? "No update yet",
+      nccases: promise.data.AP.delta?.recovered ?? "No update yet",
+      ndcases: promise.data.AP.delta?.deceased ?? "No update yet",
       tcncases: promise.data.AP.total.confirmed,
       tccases: promise.data.AP.total.recovered,
       tdcases: promise.data.AP.total.deceased,
